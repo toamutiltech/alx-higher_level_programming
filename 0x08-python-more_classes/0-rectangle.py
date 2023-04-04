@@ -1,8 +1,5 @@
 #!/usr/bin/python3
 class Rectange:
-
-    def rectangle(height = 0, weight = 0):
-        rectangle.height = height
-        rectangle.weight = weight
-
-    pass
+    def __init__(self, width=0, height=0):
+        self.width = width
+        self.height = height
